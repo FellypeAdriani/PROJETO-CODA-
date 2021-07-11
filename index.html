@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Codaí</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+<body>
+    <div class="container-fluid container-linear">
+        <div class="row container-card">
+            <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
+                <div class="card card-perfil">
+                    <div class="img-card-perfil">
+                        <img src="./images/images.png" alt="Foto de perfil" class="card-image mx-auto d-block">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-ceter card-title">Fellype Adriani</h5>
+                        <hr class="hr">
+                        <p class="text-center" id="cargo-no-html"></p>
+                        <div class="botoes-card">
+                            <button onclick="clickNoSobre()" href="#" class="btn mr-1" id="btn-sobre">Sobre</button>
+                            <button onclick="clickNoProjetos()" class="btn ml-1 btn-card" id="btn-projeto">
+                                Projeto</button>
+                        </div>
+                        <div class="icon-redes-sociais">
+                            <div class="links-redes-sociais mt-2">
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-md-6 col-lg6 text-body">
+                <div class="text" id="texto-1">
+                    <h1 class="title-text">Olá</h1>
+                    <h4 class="title-subtitle"> Bem vindo ao meu currículo</h4>
+                    <p>
+                        O front-end é onde encontramos a "cara" de um site ou aplicativo, com design, interface de
+                        navegação e ferramentas de interação com o usuário, como áreas de buscas e formulários.
+                    </p>
+                    <p>
+                        O desenvolvedor de front-end toma o design elaborado e o transforma em algo funcional por meio
+                        das linguagens usadas nessa área. O desenvolvedor de back-end, por sua vez, atua na parte dos
+                        sistemas e garante que esteja tudo devidamente certo com o servidor.
+                    </p>
+                </div>
+
+                <div class="text" id="texto-2">
+                    <h1 class="title-text">Projetos</h1>
+                    <h4 class="title-subtitle"> Alguns projetos que trabalhei</h4>
+                    <p>
+                        <a target="_blank" href="https://www.growdev.com.br">
+                            Site da Growdev - Este site foi desenvolvido em ReactJS</a>
+                    </p>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="row" id="footer-elementos">
+            <div class="col-md col-lg-3">
+                <h4>Telefone</h4>
+                <p>(51)99947-4353</p>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="email">
+                    <h4>E-mail</h4>
+                    <p>Fellypeadriani@outlook.com</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <h4>Siga</h4>
+                <div class="links-redes-sociais">
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>  
+                </div>
+            </div>
+
+        </div>
+        <div class="row text-center mb-2">
+            <div class="col-lg-12 col-md-12">
+                <small>2020 <a href="#">Growdev</a></small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>
