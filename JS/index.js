@@ -1,5 +1,5 @@
 var nome = "Fellype Adriani";
-var cargo = "CTO - GrowDev";
+var cargo = "Aluno - Growdev";
 
 var texto1 = document.getElementById("texto-1");
 var texto2 = document.getElementById("texto-2");
